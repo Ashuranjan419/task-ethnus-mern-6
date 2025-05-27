@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Capsule with Spacing</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .capsule {
+      width: 120px;
+      background-color: orange;
+      border-radius: 60px 60px 10px 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border: 2px solid #ffb84d;
+      padding: 10px 0;
+      box-sizing: border-box;
+    }
+
+    .top-space {
+      height: 40px; 
+    }
+
+    .section {
+      padding: 12px 0;
+      margin: 5px 10px; 
+      text-align: center;
+      font-weight: bold;
+      border-radius: 5px;
+      color: white;
+    }
+
+    .mca {
+      background-color: red;
+    }
+
+    .bca {
+      background-color: yellow;
+      color: black;
+    }
+
+    .bba {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="capsule">
+    <div class="top-space"></div>
+    <div class="section mca">MCA</div>
+    <div class="section bca">BCA</div>
+    <div class="section bba">BBA</div>
+  </div>
+
+</body>
+</html>
